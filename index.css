@@ -1,0 +1,68 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+
+@import url(./blocks/page/page.css);
+
+@import url(./blocks/nav/nav.css);
+@import url(./blocks/nav/__item/nav__item.css);
+@import url(./blocks/nav/__item/nav__item_active.css);
+
+@import url(./blocks/info/info.css);
+@import url(./blocks/info/__logo/info__logo.css);
+@import url(./blocks/info/__logo/info__logo-img.css);
+@import url(./blocks/info/__logo/info__logo-text.css);
+
+@import url(./blocks/info/__search/info__search.css);
+@import url(./blocks/info/__search/info__search-input.css);
+@import url(./blocks/info/__search/info__search-button.css);
+
+@import url(./blocks/info/__favorite/info__favorite.css);
+@import url(./blocks/info/__favorite/info__favorite-icon.css);
+
+@import url(./blocks/info/__basket/info__basket.css);
+@import url(./blocks/info/__basket/info__basket-icon.css);
+@import url(./blocks/info/__basket/info__basket-text.css);
+@import url(./blocks/info/__basket/info__basket-circle.css);
+
+@import url(./blocks/info/__course/info__course.css);
+@import url(./blocks/info/__course/info__course-button.css);
+
+@import url(./blocks/info/__authorization/info__authorization.css);
+@import url(./blocks/info/__authorization/info__authorization-button.css);
+@import url(./blocks/info/__authorization/info__authorization-button-text.css);
+@import url(./blocks/info/__authorization/info__authorization-button-img.css);
+
+@import url(./blocks/categories/categories.css);
+@import url(./blocks/categories/__item/categories__item.css);
+@import url(./blocks/categories/__item/categories__item-icon.css);
+@import url(./blocks/categories/__item/categories__item-icon_big.css);
+@import url(./blocks/categories/__item/categories__item-icon_medium.css);
+@import url(./blocks/categories/__item/categories__item-name.css);
+
+@import url(./blocks/categories-line/categories-line.css);
+@import url(./blocks/categories-line/__button/categories-line__button.css);
+@import url(./blocks/categories-line/__text/categories-line__text.css);
+
+@import url(./blocks/main/main.css);
+@import url(./blocks/main/__heading/main__heading.css);
+@import url(./blocks/main/__content/main__content.css);
+@import url(./blocks/main/__features/main__features.css);
+@import url(./blocks/main/__features/main__features-bth.css);
+@import url(./blocks/main/__illustration/main__illustration.css);
+@import url(./blocks/main/__illustration/main__illustration-img.css);
+
+@import url(./blocks/list/_type/list_type_text-hidden.css);
+@import url(./blocks/list/__panel/list__panel.css);
+@import url(./blocks/list/__panel/list__panel-icon.css);
+@import url(./blocks/list/__panel/list__panel-icon_color/list__panel-icon_color-green.css);
+@import url(./blocks/list/__panel/list__panel-icon_color/list__panel-icon_color-peachy.css);
+@import url(./blocks/list/__panel/list__panel-icon_color/list__panel-icon_color-blue.css);
+@import url(./blocks/list/__panel/list__panel-icon_color/list__panel-icon_color-pink.css);
+@import url(./blocks/list/__panel/list__panel-icon_color/list__panel-icon_color-yellow.css);
+
+@import url(./blocks/list/__panel/list__panel-heading.css);
+@import url(./blocks/list/__panel/list__panel-bth.css);
+@import url(./blocks/list/__text/list__text.css);
+
+@import url(./blocks/info/__menu/info__menu.css);
+@import url(./blocks/info/__menu/info__menu-icon.css);

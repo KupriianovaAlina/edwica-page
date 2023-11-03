@@ -1,0 +1,13 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  padding: 8px 0px;
+  border-top: 1px solid rgba(230, 224, 250, 1);
+  border-bottom: 1px solid rgba(230, 224, 250, 1);
+}
+
+@media (max-width: 1290px) {
+  .categories {
+    display: none;
+  }
+}

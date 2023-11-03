@@ -1,0 +1,23 @@
+.main__features-bth {
+  margin-top: 32px;
+  text-align: center;
+  padding: 10px 24px;
+  background-color: #966CEE;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: Golos;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  align-self: start;
+}
+
+@media (max-width: 1290px) {
+  .main__features-bth {
+    font-size: 12px;
+    line-height: 16px;
+    width: 100%;
+  }
+}

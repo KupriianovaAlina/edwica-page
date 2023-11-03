@@ -1,0 +1,9 @@
+.info__logo-text {
+  max-width: 80px;
+}
+
+@media (max-width: 1290px) {
+  .info__logo-text {
+    max-width: 50px;
+  }
+}

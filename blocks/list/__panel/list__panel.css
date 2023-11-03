@@ -1,0 +1,12 @@
+.list__panel {
+  display: flex;
+  padding: 24px 0px;
+  align-items: center;
+  align-self: stretch;
+}
+
+@media (max-width: 1290px) {
+  .list__panel {
+    padding: 16px 0px;
+  }
+}

@@ -1,0 +1,25 @@
+.info__search-input {
+  box-sizing: border-box;
+  height: 100%;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 8px;
+  padding-left: 12px;
+}
+
+@media (max-width: 1290px) {
+  .info__search-input::placeholder {
+    font-size: 12px;
+  }
+
+  .info__search-input:placeholder-shown {
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 768px) {
+  .info__search-input {
+    display: none;
+  }
+}

@@ -1,0 +1,15 @@
+.categories-line {
+  background: #966CEE;
+  height: 24px;
+  padding: 8px 14px 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .categories-line {
+    display: block;
+  }
+}

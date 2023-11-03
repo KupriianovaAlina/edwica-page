@@ -1,0 +1,18 @@
+.info__authorization {
+  align-self: flex-start;
+  order: 5;
+}
+
+@media (max-width: 1290px) {
+  .info__authorization {
+    align-self: center;
+    margin-right: 24px;
+    order: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .info__authorization {
+    margin-right: 20px;
+  }
+}

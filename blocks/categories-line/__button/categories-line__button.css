@@ -1,0 +1,14 @@
+.categories-line__button {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  border: none;
+  background-color: transparent;
+}
+
+.categories-line__button::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: url(../../../images/arrow-right.svg);
+}

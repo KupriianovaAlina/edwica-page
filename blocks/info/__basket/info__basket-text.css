@@ -1,0 +1,16 @@
+.info__basket-text {
+  width: fit-content;
+  font-family: "Golos", Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+@media (max-width: 1290px) {
+  .info__basket-text {
+    display: none;
+  }
+}

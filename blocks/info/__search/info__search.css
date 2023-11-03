@@ -1,0 +1,40 @@
+.info__search {
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #966CEE;
+  height: 36px;
+  margin-right: 42px;
+  min-width: 813px;
+  order: 2;
+}
+
+@media (max-width: 1525px) {
+  .info__search {
+    min-width: unset;
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 1290px) {
+  .info__search {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .info__search {
+    height: 28px;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info__search {
+    width: auto;
+    border: none;
+    margin: 0 12px 0 0;
+    flex-grow: 0;
+    height: auto;
+    order: 6;
+  }
+}

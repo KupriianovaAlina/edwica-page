@@ -1,0 +1,39 @@
+.info__authorization-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 20px 6px 16px;
+  background-color: #966CEE;
+  border-radius: 8px;
+  height: 36px;
+  width: 114px;
+  border: none;
+}
+
+@media (max-width: 1290px) {
+  .info__authorization-button {
+    width: 114px;
+    background-color: #F9F4FF;
+    border: 1px solid #966CEE;
+    padding: 8px 20px 8px 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .info__authorization-button {
+    width: 94px;
+    height: 28px;
+    padding: 2px 18px 2px 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info__authorization-button {
+    padding: 0;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid rgba(230, 224, 250, 1);
+  }
+}

@@ -1,0 +1,24 @@
+.info__basket-circle {
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #f3a919;
+  border-radius: 6px;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  color: white;
+  text-align: center;
+  font-family: "AbhayaLibre";
+}
+
+@media (max-width: 1290px) {
+  .info__basket-circle {
+    top: 4px;
+    left: 20px;
+    font-size: 9px;
+  }
+}

@@ -1,0 +1,23 @@
+.info__basket {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px;
+  position: relative;
+  margin-right: 32px;
+  order: 3;
+}
+
+@media (max-width: 1290px) {
+  .info__basket {
+    margin-right: 12px;
+    order: 5;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .info__basket {
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+.main__illustration-img {
+  max-width: 740px;
+  max-height: 550px;
+}
+
+@media (max-width: 1525px) {
+  .main__illustration-img {
+    min-width: unset;
+    width: 100%;
+  }
+}

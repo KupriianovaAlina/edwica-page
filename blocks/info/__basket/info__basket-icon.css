@@ -1,0 +1,11 @@
+.info__basket-icon {
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 1290px) {
+  .info__basket-icon {
+    width: 24px;
+    height: 24px;
+  }
+}

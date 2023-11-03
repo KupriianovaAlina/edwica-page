@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edwica</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <nav>
+        <ul class="nav">
+          <li class="nav__item">Контакты</li>
+          <li class="nav__item">Вебинары</li>
+          <li class="nav__item">Курсы</li>
+          <li class="nav__item">О нас</li>
+          <li class="nav__item nav__item_active">Траектория</li>
+        </ul>
+      </nav>
+      <div class="info">
+        <div class="info__logo">
+          <img class="info__logo-img" src="./images/edwica-logo.svg">
+          <img class="info__logo-text" src="./images/edwica-text.svg"></img>
+        </div>
+        <div class="info__search">
+          <input type="text" class="info__search-input" placeholder="поиск по курсам, вебинарам и занятиям">
+          <button class="info__search-button"></button>
+        </div>
+        <div class="info__favorite">
+          <img class="info__favorite-icon" src="./images/heart-icon.svg">
+        </div>
+        <div class="info__basket">
+          <img class="info__basket-icon" src="./images/basket.svg">
+          <div class="info__basket-circle">2</div>
+          <div class="info__basket-text">Корзина</div>
+        </div>
+        <div class="info__course">
+          <button class="info__course-button">Разместить <br />курс</button>
+        </div>
+        <div class="info__authorization">
+          <button class="info__authorization-button">
+            <img class="info__authorization-button-img" alt="иконка авторизации">
+            <span class="info__authorization-button-text">Войти</span>
+          </button>
+        </div>
+        <div class="info__menu">
+          <img class="info__menu-icon" src="./images/dropdown-menu.svg">
+        </div>
+      </div>
+      <div class="categories">
+        <div class="categories__item">
+          <img class="categories__item-icon" src="./images/languages.svg" alt="иконка словаря">
+          <span class="categories__item-name">Языки</span>
+        </div>
+        <div class="categories__item">
+          <img class="categories__item-icon" src="./images/marketing.svg" alt="иконка маркетинга">
+          <span class="categories__item-name">Маркетинг</span>
+        </div>
+        <div class="categories__item">
+          <img class="categories__item-icon categories__item-icon_big" src="./images/development.svg"
+            alt="иконка маркетинга">
+          <span class="categories__item-name">Разработка</span>
+        </div>
+        <div class="categories__item">
+          <img class="categories__item-icon" src="./images/design.svg" alt="иконка маркетинга">
+          <span class="categories__item-name">Дизайн</span>
+        </div>
+        <div class="categories__item">
+          <img class="categories__item-icon categories__item-icon_medium" src="./images/menegment.svg"
+            alt="иконка маркетинга">
+          <span class="categories__item-name">Менеджмент</span>
+        </div>
+        <div class="categories__item">
+          <img class="categories__item-icon categories__item-icon_medium" src="./images/finance.svg"
+            alt="иконка маркетинга">
+          <span class="categories__item-name">Финансы</span>
+        </div>
+        <div class="categories__item">
+          <img class="categories__item-icon categories__item-icon_medium" src="./images/business.svg"
+            alt="иконка маркетинга">
+          <span class="categories__item-name">Бизнес</span>
+        </div>
+        <div class="categories__item">
+          <img class="categories__item-icon" src="./images/law.svg" alt="иконка маркетинга">
+          <span class="categories__item-name">Право</span>
+        </div>
+        <div class="categories__item">
+          <img class="categories__item-icon categories__item-icon_medium" src="./images/school.svg"
+            alt="иконка маркетинга">
+          <span class="categories__item-name">Школа</span>
+        </div>
+        <div class="categories__item">
+          <img class="categories__item-icon" src="./images/evolution.svg" alt="иконка маркетинга">
+          <span class="categories__item-name">Развитие</span>
+        </div>
+        <div class="categories__item">
+          <img class="categories__item-icon categories__item-icon_medium" src="./images/medicine.svg"
+            alt="иконка маркетинга">
+          <span class="categories__item-name">Медицина</span>
+        </div>
+        <div class="categories__item">
+          <img class="categories__item-icon" src="./images/other.svg" alt="иконка маркетинга">
+          <span class="categories__item-name">Другое</span>
+        </div>
+      </div>
+      <div class="categories-line">
+        <span class="categories-line__text">Категории</span>
+        <button class="categories-line__button"></button>
+      </div>
+    </header>
+
+    <main class="main">
+      <h1 class="main__heading">Наш функционал</h1>
+      <div class="main__content">
+        <div class="main__features">
+          <div class="list">
+            <div class="list__panel">
+              <img class="list__panel-icon list__panel-icon_color-green" src="./images/attraction-analytics.svg"
+                alt="иконка человечка">
+              <h2 class="list__panel-heading">Аналитика привлечения</h2>
+              <button class="list__panel-bth"></button>
+            </div>
+            <div class="list__text">
+              Наши алгоритмы непрерывно анализируют вакансии, размещенные на сайтах SuperJob и HeadHunter. Мы оцениваем
+              и выявляем наиболее актуальные и важные требования работодателей и выстраиваем наиболее точный план по
+              достижению карьерных целей пользователя
+            </div>
+          </div>
+          <div class="list list_type_text-hidden">
+            <div class="list__panel">
+              <img class="list__panel-icon list__panel-icon_color-peachy" src="./images/educational-analytics.svg"
+                alt="иконка круговой диаграммы">
+              <h2 class="list__panel-heading">Образовательная аналитика</h2>
+              <button class="list__panel-bth"></button>
+            </div>
+            <div class="list__text">
+              Наши алгоритмы непрерывно анализируют вакансии, размещенные на сайтах SuperJob и HeadHunter. Мы оцениваем
+              и выявляем наиболее актуальные и важные требования работодателей и выстраиваем наиболее точный план по
+              достижению карьерных целей пользователя
+            </div>
+          </div>
+          <div class="list list_type_text-hidden">
+            <div class="list__panel">
+              <img class="list__panel-icon list__panel-icon_color-green" src="./images/financial-analitics.svg"
+                alt="иконка столбчатой диаграммы">
+              <h2 class="list__panel-heading">Финансовая аналитика</h2>
+              <button class="list__panel-bth"></button>
+            </div>
+            <div class="list__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </div>
+          </div>
+          <div class="list list_type_text-hidden">
+            <div class="list__panel">
+              <img class="list__panel-icon list__panel-icon_color-blue" src="./images/referral-links.svg"
+                alt="иконка ссылки">
+              <h2 class="list__panel-heading">Реферальные ссылки</h2>
+              <button class="list__panel-bth"></button>
+            </div>
+            <div class="list__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </div>
+          </div>
+          <div class="list list_type_text-hidden">
+            <div class="list__panel">
+              <img class="list__panel-icon list__panel-icon_color-pink" src="./images/advertising-account.svg"
+                alt="иконка громкоговорителя">
+              <h2 class="list__panel-heading">Рекламный кабинет</h2>
+              <button class="list__panel-bth"></button>
+            </div>
+            <div class="list__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </div>
+          </div>
+          <div class="list list_type_text-hidden">
+            <div class="list__panel">
+              <img class="list__panel-icon list__panel-icon_color-peachy" src="./images/chat.svg" alt="иконка письма">
+              <h2 class="list__panel-heading">Чат со студентами</h2>
+              <button class="list__panel-bth"></button>
+            </div>
+            <div class="list__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </div>
+          </div>
+          <div class="list list_type_text-hidden">
+            <div class="list__panel">
+              <img class="list__panel-icon list__panel-icon_color-yellow" src="./images/funds-withdrawal.svg"
+                alt="иконка кошелька">
+              <h2 class="list__panel-heading">Быстрый и простой вывод средств</h2>
+              <button class="list__panel-bth"></button>
+            </div>
+            <div class="list__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </div>
+          </div>
+          <button class="main__features-bth">Создать курс</button>
+        </div>
+        <div class="main__illustration">
+          <img class="main__illustration-img" src="./images/illustration1.svg">
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

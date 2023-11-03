@@ -1,0 +1,27 @@
+.info__authorization-button-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1290px) {
+  .info__authorization-button-text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #966CEE;
+  }
+}
+
+@media (max-width: 992px) {
+  .info__authorization-button-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info__authorization-button-text {
+    display: none;
+  }
+}

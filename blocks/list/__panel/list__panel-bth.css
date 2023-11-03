@@ -1,0 +1,14 @@
+.list__panel-bth {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  border: none;
+  background-color: white;
+}
+
+.list__panel-bth::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: url(../../../images/arrow-up.svg);
+}

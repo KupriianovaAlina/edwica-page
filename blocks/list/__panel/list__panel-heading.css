@@ -1,0 +1,15 @@
+.list__panel-heading {
+  color: #392B4B;
+  font-family: 'Golos';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0 auto 0 0;
+}
+
+@media (max-width: 1290px) {
+  .list__panel-heading {
+    font-size: 14px;
+  }
+}

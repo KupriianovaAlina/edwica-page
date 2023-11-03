@@ -1,0 +1,11 @@
+.list_type_text-hidden {
+  border-bottom: 1px solid #EFE8F8;
+}
+
+.list_type_text-hidden>.list__text {
+  display: none;
+}
+
+.list_type_text-hidden>.list__panel>.list__panel-bth::after {
+  content: url(../../../images/arrow-down.svg);
+}

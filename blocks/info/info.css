@@ -1,0 +1,38 @@
+.info {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 8px 0px 12px 0px;
+}
+
+@media (max-width: 1525px) {
+  .info {
+    max-width: 1220px;
+  }
+}
+
+@media (max-width: 1290px) {
+  .info {
+    justify-content: space-between;
+    max-width: 864px;
+  }
+}
+
+@media (max-width: 992px) {
+  .info {
+    max-width: 642px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .info {
+    max-width: unset;
+    width: auto;
+    margin: 0 6px 0 16px;
+    align-items: start;
+    padding: 6px 0px 10px 0px;
+  }
+}

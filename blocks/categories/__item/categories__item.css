@@ -1,0 +1,15 @@
+.categories__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categories__item:not(:last-child) {
+  margin-right: 74px;
+}
+
+@media (max-width: 1525px) {
+  .categories__item:not(:last-child) {
+    margin-right: 54px;
+  }
+}

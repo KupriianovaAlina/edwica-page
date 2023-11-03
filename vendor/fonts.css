@@ -1,0 +1,29 @@
+@font-face {
+  src: url(../fonts/GolosText-Regular.woff) format('woff'), url(../fonts/GolosText-Regular.woff2) format('woff2');
+  font-family: 'Golos';
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(../fonts/GolosText-Medium.woff) format('woff'), url(../fonts/GolosText-Medium.woff2) format('woff2');
+  font-family: 'Golos';
+  font-weight: 700;
+}
+
+@font-face {
+  src: url(../fonts/GolosText-DemiBold.woff) format('woff'), url(../fonts/GolosText-DemiBold.woff2) format('woff2');
+  font-family: 'Golos';
+  font-weight: bold;
+}
+
+@font-face {
+  src: url(../fonts/AbhayaLibre-Regular.woff) format('woff'), url(../fonts/AbhayaLibre-Regular.woff2) format('woff2');
+  font-family: 'AbhayaLibre';
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(../fonts/AbhayaLibre-Bold.woff) format('woff'), url(../fonts/AbhayaLibre-Bold.woff2) format('woff2');
+  font-family: 'AbhayaLibre';
+  font-weight: bold;
+}

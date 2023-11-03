@@ -1,0 +1,24 @@
+.info__logo {
+  display: flex;
+  width: 136px;
+  align-items: center;
+  gap: 12px;
+  margin-right: 32px;
+  order: 1;
+}
+
+@media (max-width: 1290px) {
+  .info__logo {
+    width: 94px;
+    gap: 8px;
+    margin-right: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info__logo {
+    margin-right: auto;
+    align-self: center;
+    width: 107px;
+  }
+}

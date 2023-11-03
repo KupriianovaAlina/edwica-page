@@ -1,0 +1,29 @@
+.main {
+  max-width: 1440px;
+  margin: 0 auto 100px auto;
+}
+
+@media (max-width: 1525px) {
+  .main {
+    max-width: 1220px;
+  }
+}
+
+@media (max-width: 1290px) {
+  .main {
+    max-width: 864px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main {
+    max-width: 642px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    max-width: unset;
+    margin: 0 16px;
+  }
+}

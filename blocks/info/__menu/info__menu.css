@@ -1,0 +1,10 @@
+.info__menu {
+  display: none;
+  order: 6;
+}
+
+@media (max-width: 1290px) {
+  .info__menu {
+    display: block;
+  }
+}

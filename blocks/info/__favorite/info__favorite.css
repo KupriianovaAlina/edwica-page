@@ -1,0 +1,17 @@
+.info__favorite {
+  display: none;
+}
+
+@media (max-width: 1290px) {
+  .info__favorite {
+    display: block;
+    margin-right: 18px;
+    order: 4;
+  }
+}
+
+@media (max-width: 768px) {
+  .info__favorite {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+.info__authorization-button-img {
+  content: url(../../../images/authorization-icon.svg);
+}
+
+@media (max-width: 1290px) {
+  .info__authorization-button-img {
+    content: url(../../../images/authorization-icon-purple.svg);
+  }
+}
+
+@media (max-width: 992px) {
+  .info__authorization-button-img {
+    height: 18px;
+    width: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info__authorization-button-img {
+    content: url(../../../images/user.png);
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 2px;
+    left: 2px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: 50% 20%;
+  }
+}
