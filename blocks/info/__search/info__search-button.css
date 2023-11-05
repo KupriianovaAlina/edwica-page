@@ -6,6 +6,7 @@
   width: 64px;
   position: relative;
   padding: 0;
+  cursor: pointer;
 }
 
 .info__search-button::after {

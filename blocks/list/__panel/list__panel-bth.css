@@ -4,6 +4,7 @@
   position: relative;
   border: none;
   background-color: white;
+  cursor: pointer;
 }
 
 .list__panel-bth::after {

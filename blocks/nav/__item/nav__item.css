@@ -1,6 +1,10 @@
 .nav__item {
+  background-color: white;
   margin-left: 40px;
   padding: 4px 0;
   border-radius: 24px;
   color: #615473;
+  padding-left: 8px;
+  padding-right: 8px;
+
 }

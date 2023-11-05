@@ -10,6 +10,7 @@
   height: 40px;
   box-sizing: content-box;
   margin-right: 16px;
+  cursor: pointer;
 }
 
 @media (max-width: 1290px) {
