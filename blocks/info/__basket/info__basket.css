@@ -1,6 +1,6 @@
 .info__basket {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
   padding: 6px;
   position: relative;
