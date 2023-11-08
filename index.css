@@ -30,13 +30,13 @@
 @import url(./blocks/info/__authorization/info__authorization.css);
 @import url(./blocks/info/__authorization/info__authorization-button.css);
 @import url(./blocks/info/__authorization/info__authorization-button-text.css);
-@import url(./blocks/info/__authorization/info__authorization-button-img.css);
+@import url(./blocks/info/__authorization/info__authorization-button-icon.css);
 
 @import url(./blocks/categories/categories.css);
 @import url(./blocks/categories/__item/categories__item.css);
 @import url(./blocks/categories/__item/categories__item-icon.css);
-@import url(./blocks/categories/__item/categories__item-icon_big.css);
-@import url(./blocks/categories/__item/categories__item-icon_medium.css);
+@import url(./blocks/categories/__item/categories__item-icon_size/categories__item-icon_size_big.css);
+@import url(./blocks/categories/__item/categories__item-icon_size/categories__item-icon_size_medium.css);
 @import url(./blocks/categories/__item/categories__item-name.css);
 
 @import url(./blocks/categories-line/categories-line.css);
@@ -61,7 +61,7 @@
 @import url(./blocks/list/__panel/list__panel-icon_color/list__panel-icon_color-yellow.css);
 
 @import url(./blocks/list/__panel/list__panel-heading.css);
-@import url(./blocks/list/__panel/list__panel-bth.css);
+@import url(./blocks/list/__panel/list__panel-button.css);
 @import url(./blocks/list/__text/list__text.css);
 
 @import url(./blocks/info/__menu/info__menu.css);

@@ -1,22 +1,22 @@
-.info__authorization-button-img {
+.info__authorization-button-icon {
   content: url(../../../images/authorization-icon.svg);
 }
 
 @media (max-width: 1290px) {
-  .info__authorization-button-img {
+  .info__authorization-button-icon {
     content: url(../../../images/authorization-icon-purple.svg);
   }
 }
 
 @media (max-width: 992px) {
-  .info__authorization-button-img {
+  .info__authorization-button-icon {
     height: 18px;
     width: 18px;
   }
 }
 
 @media (max-width: 768px) {
-  .info__authorization-button-img {
+  .info__authorization-button-icon {
     content: url(../../../images/user.png);
     position: absolute;
     width: 34px;

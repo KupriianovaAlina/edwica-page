@@ -1,4 +1,4 @@
-.list__panel-bth {
+.list__panel-button {
   width: 24px;
   height: 24px;
   position: relative;
@@ -7,7 +7,7 @@
   cursor: pointer;
 }
 
-.list__panel-bth::after {
+.list__panel-button::after {
   position: absolute;
   left: 0;
   top: 0;

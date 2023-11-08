@@ -6,7 +6,7 @@ let currentActiveFeature = lists[0];
 let currentActiveNav = navs[0];
 
 lists.forEach((list) => {
-  const button = list.querySelector('.list__panel-bth');
+  const button = list.querySelector('.list__panel-button');
 
   button.addEventListener('click', (event) => {
     let eventTargetList = event.target.closest('.list');

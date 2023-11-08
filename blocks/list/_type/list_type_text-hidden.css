@@ -6,6 +6,6 @@
   display: none;
 }
 
-.list_type_text-hidden>.list__panel>.list__panel-bth::after {
+.list_type_text-hidden>.list__panel>.list__panel-button::after {
   content: url(../../../images/arrow-down.svg);
 }
